@@ -1,1 +1,3 @@
-# Create-Custom-VPC-Host-Site-on-Custom-VPC
+# Create-Custom-VPC-Host-Site-on-Custom-VPCCreating a VPC in Aws Cloud Service.
+#This repo is a Project for the creation of Amazon VPC
+By default your Amazon account comes with a VPC, VPC which stands for Virtual Private Cloud is like a Private Network portion in Aws. To create VPC you'll need two Subnet IP, A private IP and a Public IP to allow Traffic from the Internet. If you're launching a Server which in this case is a Virtual Server known as EC2, You'll need to Configure Security tools such as Firewalls to Control Access in and out of your servers. This is where Security Groups at the Instance or Virtual Machine level and NACLS(Network Access Control lists) at the Subnet level comes in. Security Groups are State-full Firewalls so by default they allow Traffic that was previously allowed while NACLs are Stateless meaning that they ensure to check all Inbound and Outbound Traffic.
